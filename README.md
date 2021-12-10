@@ -63,6 +63,9 @@ Wynik prezentuje się następująco:
 
 ![image](https://user-images.githubusercontent.com/52716721/144602561-4c26a048-5eaa-4fde-b787-32728e26c41a.png)
 
+* Flaga dla kyle.
+![image](https://user-images.githubusercontent.com/52716721/145611859-ed9da537-bfe2-4fe0-8208-99f5d2c71ac3.png)
+
 * Użytkownik należy do niestandardowej grupy filter, która jest odpowiedzialna za pliki prezentujące się na poniższym zrzucie.
 ![image](https://user-images.githubusercontent.com/52716721/143599339-fb5de575-7cf1-4538-8bd8-96eab3fa917c.png)
 
@@ -90,4 +93,4 @@ Wynik prezentuje się następująco:
 
 * Ostatnim krokiem było odczytanie flagi z pliku root.txt
 
-![image](https://user-images.githubusercontent.com/52716721/144607190-4eaa5b07-7777-4eda-8404-74a5b0b4d29b.png)
+![image](https://user-images.githubusercontent.com/52716721/145611973-f3a44ac1-7c23-436d-ac8f-1599ba462681.png)
