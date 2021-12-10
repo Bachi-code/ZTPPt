@@ -41,6 +41,7 @@ Wynik prezentuje się następująco:
 ![image](https://user-images.githubusercontent.com/52716721/143478354-b7a9d660-18e8-4735-8002-3e3601dabfc1.png)
 
 * Następnie odczytany został plik writer.wsgi (`uname=username' UNION ALL SELECT NULL,load_file("/var/www/writer.htb/writer.wsgi"),NULL,NULL,NULL,NULL-- -&password=test`), w którym importowany jest plik `__init__.py`.
+![image](https://user-images.githubusercontent.com/52716721/143478809-566682a5-ca8f-4eb5-a72b-a2b08fc40f60.png)
 ![image](https://user-images.githubusercontent.com/52716721/143479464-bab8af2c-5c28-4e29-bc21-90d08b245957.png)
 ![image](https://user-images.githubusercontent.com/52716721/143479566-63bc8a3a-1baa-404d-bb12-aa454b7ced0a.png)
 
